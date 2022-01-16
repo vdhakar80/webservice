@@ -1,0 +1,244 @@
+{
+  "stats": {
+    "suites": 6,
+    "tests": 14,
+    "passes": 14,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-03-27T18:02:18.535Z",
+    "end": "2021-03-27T18:02:19.186Z",
+    "duration": 651
+  },
+  "suites": [
+    {
+      "title": "Testing_App",
+      "tests": [
+        {
+          "fullTitle": "Testing_App Added required middlewares",
+          "title": "Added required middlewares",
+          "duration": 4,
+          "result": "passed",
+          "err": {}
+        }
+      ]
+    },
+    {
+      "title": "Testing_Routing",
+      "tests": [
+        {
+          "fullTitle": "Testing_Routing Handling error in PUT request",
+          "title": "Handling error in PUT request",
+          "duration": 177,
+          "result": "passed",
+          "err": {}
+        },
+        {
+          "fullTitle": "Testing_Routing Configuring PUT /allocate/:distributor",
+          "title": "Configuring PUT /allocate/:distributor",
+          "duration": 26,
+          "result": "passed",
+          "err": {}
+        },
+        {
+          "fullTitle": "Testing_Routing Handling error in GET request",
+          "title": "Handling error in GET request",
+          "duration": 15,
+          "result": "passed",
+          "err": {}
+        },
+        {
+          "fullTitle": "Testing_Routing Configuring GET /findService/:location",
+          "title": "Configuring GET /findService/:location",
+          "duration": 21,
+          "result": "passed",
+          "err": {}
+        }
+      ]
+    },
+    {
+      "title": "Testing_Validators",
+      "tests": [
+        {
+          "fullTitle": "Testing_Validators Configuring validateCustomer",
+          "title": "Configuring validateCustomer",
+          "duration": 7,
+          "result": "passed",
+          "err": {}
+        },
+        {
+          "fullTitle": "Testing_Validators Configuring validateDate",
+          "title": "Configuring validateDate",
+          "duration": 3,
+          "result": "passed",
+          "err": {}
+        },
+        {
+          "fullTitle": "Testing_Validators Configuring validateDistributor",
+          "title": "Configuring validateDistributor",
+          "duration": 6,
+          "result": "passed",
+          "err": {}
+        }
+      ]
+    },
+    {
+      "title": "Testing_ErrorLogger",
+      "tests": [
+        {
+          "fullTitle": "Testing_ErrorLogger Default Error status",
+          "title": "Default Error status",
+          "duration": 2,
+          "result": "passed",
+          "err": {}
+        },
+        {
+          "fullTitle": "Testing_ErrorLogger Response status and message check",
+          "title": "Response status and message check",
+          "duration": 1,
+          "result": "passed",
+          "err": {}
+        }
+      ]
+    },
+    {
+      "title": "Testing_Service",
+      "tests": [
+        {
+          "fullTitle": "Testing_Service Configuring allocate method",
+          "title": "Configuring allocate method",
+          "duration": 31,
+          "result": "passed",
+          "err": {}
+        },
+        {
+          "fullTitle": "Testing_Service Configuring fetchDetails method",
+          "title": "Configuring fetchDetails method",
+          "duration": 5,
+          "result": "passed",
+          "err": {}
+        }
+      ]
+    },
+    {
+      "title": "Testing_DAL",
+      "tests": [
+        {
+          "fullTitle": "Testing_DAL Configuring allocateHeater method",
+          "title": "Configuring allocateHeater method",
+          "duration": 3,
+          "result": "passed",
+          "err": {}
+        },
+        {
+          "fullTitle": "Testing_DAL Configuring fetchDetails method",
+          "title": "Configuring fetchDetails method",
+          "duration": 6,
+          "result": "passed",
+          "err": {}
+        }
+      ]
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "fullTitle": "Testing_App Added required middlewares",
+      "title": "Added required middlewares",
+      "duration": 4,
+      "result": "passed",
+      "err": {}
+    },
+    {
+      "fullTitle": "Testing_Routing Handling error in PUT request",
+      "title": "Handling error in PUT request",
+      "duration": 177,
+      "result": "passed",
+      "err": {}
+    },
+    {
+      "fullTitle": "Testing_Routing Configuring PUT /allocate/:distributor",
+      "title": "Configuring PUT /allocate/:distributor",
+      "duration": 26,
+      "result": "passed",
+      "err": {}
+    },
+    {
+      "fullTitle": "Testing_Routing Handling error in GET request",
+      "title": "Handling error in GET request",
+      "duration": 15,
+      "result": "passed",
+      "err": {}
+    },
+    {
+      "fullTitle": "Testing_Routing Configuring GET /findService/:location",
+      "title": "Configuring GET /findService/:location",
+      "duration": 21,
+      "result": "passed",
+      "err": {}
+    },
+    {
+      "fullTitle": "Testing_Validators Configuring validateCustomer",
+      "title": "Configuring validateCustomer",
+      "duration": 7,
+      "result": "passed",
+      "err": {}
+    },
+    {
+      "fullTitle": "Testing_Validators Configuring validateDate",
+      "title": "Configuring validateDate",
+      "duration": 3,
+      "result": "passed",
+      "err": {}
+    },
+    {
+      "fullTitle": "Testing_Validators Configuring validateDistributor",
+      "title": "Configuring validateDistributor",
+      "duration": 6,
+      "result": "passed",
+      "err": {}
+    },
+    {
+      "fullTitle": "Testing_ErrorLogger Default Error status",
+      "title": "Default Error status",
+      "duration": 2,
+      "result": "passed",
+      "err": {}
+    },
+    {
+      "fullTitle": "Testing_ErrorLogger Response status and message check",
+      "title": "Response status and message check",
+      "duration": 1,
+      "result": "passed",
+      "err": {}
+    },
+    {
+      "fullTitle": "Testing_Service Configuring allocate method",
+      "title": "Configuring allocate method",
+      "duration": 31,
+      "result": "passed",
+      "err": {}
+    },
+    {
+      "fullTitle": "Testing_Service Configuring fetchDetails method",
+      "title": "Configuring fetchDetails method",
+      "duration": 5,
+      "result": "passed",
+      "err": {}
+    },
+    {
+      "fullTitle": "Testing_DAL Configuring allocateHeater method",
+      "title": "Configuring allocateHeater method",
+      "duration": 3,
+      "result": "passed",
+      "err": {}
+    },
+    {
+      "fullTitle": "Testing_DAL Configuring fetchDetails method",
+      "title": "Configuring fetchDetails method",
+      "duration": 6,
+      "result": "passed",
+      "err": {}
+    }
+  ]
+}

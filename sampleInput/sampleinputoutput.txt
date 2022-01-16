@@ -1,0 +1,94 @@
+The following are sample input and output for your reference
+[Note: Dynamic values in your response may vary]
+
+
+=====================================================================================
+Sample Input/Output for GET /findService/:location
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Response for: GET /findService/Bangalore
+
+response status is 200
+
+["SupremeSolar","Blitz"]
+
+---------------------------------------------------------
+Response for : GET /findService/Orissa
+
+response status is 404
+
+{
+  "message" : "Service not provided in Orissa"
+}
+
+
+
+==================================================================================================================================
+
+Sample Input/Output for PUT /allocate/:distributor
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Response for: PUT /allocate/EagleBird
+
+request body = {
+        "location":"Pune",
+        "purchaseDate": "2019-12-21",
+        "installationDate": "2019-12-27",
+        "name": "test"
+   }
+
+response status = 406
+
+{
+  "message" : "Purchase date should be greater than or equal to today"
+}
+
+--------------------------------------------------------------------------------------------
+
+Response for: PUT /allocate/EagleBird
+
+request body = {
+        "location":"Pune",
+        "purchaseDate": "2020-12-02",
+        "installationDate": "2019-12-27",
+        "name": "test"
+   }
+
+response status is 406
+
+{
+  "message" : "Installation Date should be greater than Purchase Date"
+}
+
+----------------------------------------------------------------------------------------------
+Response for: PUT /allocate/EagleBird
+
+request body = {
+        "location":"Pune",
+        "purchaseDate": "2020-12-02",
+        "installationDate": "2020-12-26",
+        "name": "test"
+   }
+
+response status is 406
+{
+  "message" : "Invalid Distributor Name"
+}
+
+-----------------------------------------------------------------------------------------------
+Response for: PUT /allocate/A4solar
+
+request body = {
+        "location":"Pune",
+        "purchaseDate": "2020-12-02",
+        "installationDate": "2020-12-26",
+        "name": "test"
+   }
+
+response status = 200
+
+{
+  "message" : "Solar Heater A4solar successfully allocated to customer 1009"
+}
+
+---------------------------------------------------------
